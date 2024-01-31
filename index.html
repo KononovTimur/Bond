@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bond</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <h1>Bond</h1>
+        <p>
+          <em>Bond - означает <strong>связь</strong> . Вместе мы cила!</em>
+        </p>
+      </div>
+      <div class="table">
+        <img
+          src="JamesBond.png"
+          alt="Проект создан, для преодоления барьера между поколениями"
+          class="JB"
+        />
+        <div class="box">
+          <div class="withoutLink">
+            <p>
+              Оставьте свой вопрос здесь. Или же воспользуйтесь нашим ботом в
+              Telegram
+            </p>
+          </div>
+          <a href="" target="_blank">Bond в Telegram</a>
+        </div>
+
+        <img
+          src="Society.png"
+          alt="Не бойтесь задавать вопросы!"
+          class="art2"
+        />
+      </div>
+      <h3>Поле для вопроса:</h3>
+      <div class="row">
+        <div class="row-container">
+        <form action="/">
+          <div class="form-group">
+            <label for="difficulty">Уровень сложности:</label>
+            <select id="difficulty" name="difficulty" required>
+              <option value="easy">Легкий</option>
+              <option value="medium">Средний</option>
+              <option value="hard">Сложный</option>
+            </select>
+          </div>
+        </div>
+
+          <div class="form-group">
+            <label for="question">Введите вопрос:</label>
+            <textarea id="question" cols="5" rows="2"></textarea>
+          </div>
+          <input type="submit" value="Отправить" class="btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
